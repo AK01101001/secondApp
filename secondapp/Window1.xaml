@@ -21,6 +21,6 @@
                 <ComboBoxItem>Yellow</ComboBoxItem>
             </ComboBox>
         </StackPanel>
-        <Rectangle Margin="10" x:Name="Rect" Height="{Binding Text, ElementName=hig}" Width="{Binding Width, ElementName=wid}" Fill="{Binding SelectedIndex, ElementName=Col}"></Rectangle>
+        <Rectangle Margin="10" x:Name="Rect" Height="{Binding Text, ElementName=hig}" Width="{Binding Width, ElementName=wid}" Fill="{Binding Text, ElementName=Col}"></Rectangle>
     </UniformGrid>
 </Window>
